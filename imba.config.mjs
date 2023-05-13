@@ -1,4 +1,6 @@
-export default {
+import {defineConfig} from 'imba'
+
+export default defineConfig({
 	bundler: "vite",
 	imba: {
 		theme: {
@@ -10,4 +12,7 @@ export default {
 			}
 		}
 	},
-}
+
+	client: { envPrefix: "MY" }
+
+})
