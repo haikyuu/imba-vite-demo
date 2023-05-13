@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "imba": "^2.0.0-alpha.229.vite.21"
+  },
+  "devDependencies": {
+    "vite": "^4.3.5"
   }
 }
