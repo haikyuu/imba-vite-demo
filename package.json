@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "imba serve"
+    "start": "imba serve",
+    "build": "imba build"
   },
   "keywords": [],
   "author": "",
